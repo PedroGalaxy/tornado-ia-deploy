@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load("modelo_rf.pkl")
+model = joblib.load("rf_temp.joblib")
 
 st.title("Predição de Magnitude de Tornado (IA)")
 
